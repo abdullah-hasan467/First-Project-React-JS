@@ -29,8 +29,8 @@ const NetflixSeries = () => {
   return (
     <div>
       <div>
-      <h2></h2>
       <p></p>
+      <h3></h3>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non debitis reprehenderit ea excepturi dolore minima autem deserunt similique sunt, eos odio provident dolores beatae quia! Architecto eum temporibus fugiat quidem!	</p>
       <img src="" alt="" srcset="" />
         <img src="img.jpg" alt="icon" width="80%" height="auto" />

@@ -1,0 +1,17 @@
+.Title {
+  margin-bottom: 5rem;
+}
+.card{
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    padding:2.5rem
+}
+
+img{
+    width:100%
+}
+.card-container{
+    padding: 3.2 rem 1.3rem;
+    display:flex;
+    flex-direction: column;
+    gap:1.3rem
+}

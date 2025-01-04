@@ -11,7 +11,7 @@ export const SeriesCard = ({ data }) => {
           Name: {name}
         </h2>
         <h3>
-          Ratings: {rating}
+          Ratings: <span className={rating>=8.5 ? "super_hit" : "average"}>  {rating} </span>
         </h3>
         <p style={{ margin: "1.2rem" }}>
           Summary: {description}

@@ -18,3 +18,16 @@ img {
   flex-direction: column;
   gap: 1.3rem;
 }
+
+.super_hit {
+  background-color: #7dcea0;
+  padding:0.9rem;
+  border-radius: 15px;
+  margin-left:0.5rem;
+}
+.average {
+  background-color: #f7dc6f;
+  padding:0.3rem 1.8rem;
+  border-radius: 15px;
+  margin-left:1.2 rem;
+}

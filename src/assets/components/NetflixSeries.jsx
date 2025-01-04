@@ -5,12 +5,7 @@ const NetflixSeries = () => {
     <div>
       {seriesData.map((series, index) =>
         <div key={index}>
-          <img
-            src={series.img_url}
-            alt="{series.name}"
-            width="80%"
-            height="auto"
-          />
+          <img src={series.img_url} alt="{series.name}" width="80%" height="auto" />
           <div>
             <h2>
               Name: {series.name}

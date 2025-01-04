@@ -6,9 +6,7 @@ export const App = () => {
   return (
     <>
       <NetflixSeries  />
-      <NetflixSeries />
-      <NetflixSeries />
-      <NetflixSeries />
+     
     </>
   );
 };

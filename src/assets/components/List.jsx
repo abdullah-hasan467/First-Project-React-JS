@@ -1,19 +1,21 @@
- 
+ import styles from "./Netflix.module.css";
 
 export const SeriesCard = ({ data }) => {
   // Destructure properties from 'data'
   const { name, img_url, rating, description, cast, genre, watch_url } = data;
 
-  return <li className="card">
+  return <li className={styles.card}>
       <img src={img_url} alt={name} width="100%" height="auto" />
-      <div className="card-container">
+      <div className={styles["card-container"]}>
         <h2>
           Name: {name}
         </h2>
         <h3>
-          Ratings: <span className={rating>=8.5 ? "super_hit" : "average"}>  {rating} </span>
+          Ratings: <span className={rating >= 8.5 ? "super_hit" : "average"}>
+            {" "}{rating}{" "}
+          </span>
         </h3>
-        <p style={{ margin: "1.2rem" }}>
+        <p className="text-3xl font-bold underline" style={{ margin: "1.2rem" }}>
           Summary: {description}
         </p>
         <h3>

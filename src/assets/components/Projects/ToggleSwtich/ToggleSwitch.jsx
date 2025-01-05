@@ -1,19 +1,25 @@
 import { useState } from "react";
 import "./ToggleSwitch.css";
 
-export const ToggleSwitch = ()=>{
-const [isOn, setIsOn]= useState(false);
+export const ToggleSwitch = () => {
+  const [isOn, setIsOn] = useState(false);
 
-const handleToggleSwich = () =>{
+  const handleToggleSwitch = () => {
     setIsOn(!isOn);
-}
+  };
 
-    return (
-        <div className="toggle-switch" onClick={handleToggleSwich}>
-        <div className={`switch ${isOn ? "on" :"off"} `}>
-        <span className="switch-state">{isOn? "ON":"OFF"}</span>
+  const checkIsOn = isOn ? "on" : "off";
 
-        </div>
-        </div>
-    )
-}
+  return (
+    <div
+      className="toggle-switch"
+      style={{ backgroundColor: isOn ? "#4caf50" : "#f44336" }} // Fix style syntax
+      onClick={handleToggleSwitch}
+    >
+      <div className={`switch ${checkIsOn}`}>
+        {" "}{/* Conditionally add class 'on' or 'off' */}
+        <span className="switch-state">{checkIsOn}</span>
+      </div>
+    </div>
+  );
+};

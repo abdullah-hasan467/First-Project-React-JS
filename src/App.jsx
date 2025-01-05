@@ -4,7 +4,8 @@
 // import { EventProps } from "./assets/components/EventProps.Jsx";
 // import "./assets/components/Netflix.module.css";
 
-import { LifitngState } from "./assets/components/LifSatteUp";
+import { ToggleSwitch } from "./assets/components/Projects/ToggleSwtich/ToggleSwitch";
+
 
 // import { Sate } from "./assets/components/hooks/State";
 
@@ -16,6 +17,7 @@ export const App = () => {
       {/* <EventHandling/> */}
       {/* <EventProps/> */}
       {/* <Sate/> */}
-      <LifitngState />
+      {/* <LifitngState /> */}
+      <ToggleSwitch />
     </section>;
 };

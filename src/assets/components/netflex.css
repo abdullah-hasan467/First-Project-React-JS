@@ -31,3 +31,17 @@ img {
   border-radius: 15px;
   margin-left:1.2 rem;
 }
+button{
+  padding:1.3rem;
+  border:black;
+  background-color: orange;
+  margin: 2rem;
+
+}
+
+.btn{
+  padding:1.3rem;
+  border:black;
+  background-color: orange;
+  margin: 2rem;
+}

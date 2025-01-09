@@ -4,6 +4,7 @@
 // import { EventProps } from "./assets/components/EventProps.Jsx";
 // import "./assets/components/Netflix.module.css";
 
+import { Cleanup } from "./assets/components/hooks/useEffect/Cleanup";
 import { Challenge } from "./assets/components/hooks/useEffect/EffectChallenge";
 
 // import { ReactUseEffect } from "./assets/components/hooks/useEffect/Index";
@@ -40,7 +41,8 @@ export const App = () => {
         {/* <LoginForm /> */}
         {/* <ContactForm /> */}
 {/* <ReactUseEffect/> */}
-<Challenge />
+<Cleanup/>
+{/* <Challenge/> */}
 
       </section>
     

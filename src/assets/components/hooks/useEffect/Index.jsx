@@ -23,12 +23,20 @@ import "./index.css";
 export const ReactUseEffect = () => {
   const [date, setDate] = useState(0);
 
-  useEffect(() => {
-    setInterval(() => {
-      const updatedDate = new Date();
-      setDate(updatedDate.toLocaleTimeString());
-    }, 1000);
-  }, []);
+useEffect(() => {
+setInterval (()=>{
+    const updatedTime = new Date();
+    setDate(updatedTime.toLocaleTimeString());
+},1000)
+}, []); 
+
+
+
+
+
+
+
+
 
   return (
     <div className="container effect-container">

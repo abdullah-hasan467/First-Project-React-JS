@@ -4,7 +4,9 @@
 // import { EventProps } from "./assets/components/EventProps.Jsx";
 // import "./assets/components/Netflix.module.css";
 
-import { ReactUseEffect } from "./assets/components/hooks/useEffect/Index";
+import { Challenge } from "./assets/components/hooks/useEffect/EffectChallenge";
+
+// import { ReactUseEffect } from "./assets/components/hooks/useEffect/Index";
 
 // import { ContactForm } from "./assets/components/hooks/useState/ContactFrom";
 // import { LoginForm } from "./assets/components/hooks/useState/LoginForm";
@@ -37,7 +39,9 @@ export const App = () => {
         {/* <RegistrationFormReact /> */}
         {/* <LoginForm /> */}
         {/* <ContactForm /> */}
-<ReactUseEffect/>
+{/* <ReactUseEffect/> */}
+<Challenge />
+
       </section>
     
   );

@@ -4,7 +4,11 @@
 // import { EventProps } from "./assets/components/EventProps.Jsx";
 // import "./assets/components/Netflix.module.css";
 
-import { HowNotToFetchApi } from "./assets/components/hooks/useEffect/HowNotToFetchAPI";
+import { ParentComponent } from "./assets/components/hooks/UseID/PropDrilling";
+
+// import { UseRef } from "./assets/components/hooks/useRef";
+
+// import { HowNotToFetchApi } from "./assets/components/hooks/useEffect/HowNotToFetchAPI";
 
 
 // import { Cleanup } from "./assets/components/hooks/useEffect/Cleanup";
@@ -48,7 +52,9 @@ export const App = () => {
 
 {/* <Challenge/> */}
 
-<HowNotToFetchApi />
+{/* <HowNotToFetchApi /> */}
+{/* <UseRef /> */}
+<ParentComponent />
       </section>
     
   );
